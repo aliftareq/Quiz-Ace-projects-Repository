@@ -1,6 +1,6 @@
 # Quiz-Ace projects Repository
 
-An Quiz platform for Practice and develop skills at extremely affordable subscript fee.
+A Quiz platform for Practice and develop tech skills at an extremely affordable subscription fee.
 
 ***
 What was done in this project:
@@ -13,6 +13,13 @@ What was done in this project:
 ## Live Link
 Hosted in Netlify -> [Smart Home](https://shome-shop.netlify.app/)
 
+## Technologies
+***
+A list of technologies used within the project:
+* [React](https://reactjs.org/): Version 18.2.0
+* [React router](https://reactrouter.com/en/main): Version 6.4.2
+* [React tostify](https://www.npmjs.com/package/react-toastify): Version 9.0.8
+
 
 ## React Router Dom v6.4 
 Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
@@ -21,7 +28,12 @@ Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
 Tailwind Components -> 
 [Kitwind](https://kitwind.io/products/kometa/components)
 
+## QUIZ API LINK:
+* Get all quiz topics: -> (https://openapi.programming-hero.com/api/quiz)
+* Get topic details by topic id: -> (https://openapi.programming-hero.com/api/quiz/${id})
+* Example: -> (https://openapi.programming-hero.com/api/quiz/1)
+
 ## Other Resources
-Icon -> [HeroIcon](https://heroicons.com/)
-Icon Documentation-> [Icon documentaion](https://github.com/tailwindlabs/heroicons)
-FavIcon -> [Freepic](https://www.freepik.com/)
+* Icon -> [HeroIcon](https://heroicons.com/)
+* Icon Documentation-> [Icon documentaion](https://github.com/tailwindlabs/heroicons)
+* FavIcon -> [Freepic](https://www.freepik.com/)
