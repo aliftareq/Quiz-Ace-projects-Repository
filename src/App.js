@@ -6,6 +6,7 @@ import Topics from './Components/Topics/Topics';
 import Main from './Components/layouts/Main';
 import { Blog } from './Components/Blog/Blog';
 import Quizes from './Components/Quizes/Quizes';
+import Home from './Components/Home/Home';
 
 
 
@@ -18,6 +19,11 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Topics></Topics>
+        },
+        {
+          path: '/home',
           loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Topics></Topics>
         },
