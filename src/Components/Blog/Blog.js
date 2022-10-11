@@ -40,7 +40,7 @@ const Item = ({ title, children }) => {
     );
 };
 
-export const Blog = () => {
+const Blog = () => {
     return (
         <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
@@ -87,30 +87,25 @@ export const Blog = () => {
                                         height="24"
                                     />
                                 </svg>
-                                <span class="relative">The</span>
+                                <span class="relative">Some</span>
                             </span>{' '}
-                            quick, brown fox jumps over a lazy dog
+                            Frequently Asked Question about React-router.
                         </h2>
                         <p class="text-base text-gray-700 md:text-lg">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremque rem aperiam, eaque ipsa quae.
+                            Follow the Question and Increase knowledge about react-router.
                         </p>
                     </div>
                 </div>
                 <div class="space-y-4">
-                    <Item title="The quick, brown fox jumps over a lazy dog?">
+                    <Item title="What is the purpose of React Router?">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque rem aperiam, eaque ipsa quae.
                     </Item>
-                    <Item title="The first mate and his Skipper too will do?">
+                    <Item title="How does the Context API work?">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque rem aperiam, eaque ipsa quae.
                     </Item>
-                    <Item title="Is the Space Pope reptilian!?">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
-                    </Item>
-                    <Item title="How much money you got on you?">
+                    <Item title="Explain useRef in 5-10 lines.">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque rem aperiam, eaque ipsa quae.
                     </Item>
@@ -119,3 +114,5 @@ export const Blog = () => {
         </div>
     );
 };
+
+export { Item, Blog }
