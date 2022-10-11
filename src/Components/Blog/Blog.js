@@ -97,16 +97,13 @@ const Blog = () => {
                 </div>
                 <div className="space-y-4">
                     <Item title="What is the purpose of React Router?">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                        <span className='font-bold'>Ans:</span> <strong>React Router</strong> is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.
                     </Item>
                     <Item title="How does the Context API work?">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                        <span className='font-bold'>Ans:</span> The React <strong>Context API</strong> is a way for a React app to effectively produce global variables that can be passed around. This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on.
                     </Item>
                     <Item title="Explain useRef in 5-10 lines.">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                        accusantium doloremque rem aperiam, eaque ipsa quae.
+                        <span className='font-bold'>Ans:</span> <strong>useRef</strong> returns a mutable ref object whose .current property is initialized to the passed argument ( initialValue ). The returned object will persist for the full lifetime of the component. Essentially, useRef is like a “box” that can hold a mutable value in its .current property.
                     </Item>
                 </div>
             </div>

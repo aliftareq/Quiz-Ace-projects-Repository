@@ -35,7 +35,7 @@ export const Nav = () => {
                     <ul className="flex items-center hidden space-x-8 lg:flex">
                         <li>
                             <NavLink
-                                to="/Home"
+                                to="/home"
                                 aria-label="Our product"
                                 title="Our product"
                                 className={({ isActive }) => isActive

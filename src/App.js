@@ -6,7 +6,6 @@ import Topics from './Components/Topics/Topics';
 import Main from './Components/layouts/Main';
 import { Blog } from './Components/Blog/Blog';
 import Quizes from './Components/Quizes/Quizes';
-import Home from './Components/Home/Home';
 
 
 
