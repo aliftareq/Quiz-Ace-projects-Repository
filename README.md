@@ -3,7 +3,7 @@
 A Quiz platform for Practice and develop tech skills at an extremely affordable subscription fee.
 
 ***
-What was done in this project:
+What was done in this project(Description):
 * The main focus of this project was, learing the use of react router . So, we applied React-router to navigate the page on place to another.
 * Also I applied Re-chart and added a bar chart and showed it on Statistic page UI.
 *  I also applied toast component with help of "tostify" package and used it to varify answer of a quiz given by an user valid or not.
