@@ -27,12 +27,13 @@ function App() {
           element: <Topics></Topics>
         },
         {
-          path: 'Topics/quiz/:Id',
+          path: '/quiz/:Id',
           loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.Id}`),
           element: <Quizes></Quizes>
         },
         {
           path: '/statistics',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Statistics></Statistics>
         },
         {

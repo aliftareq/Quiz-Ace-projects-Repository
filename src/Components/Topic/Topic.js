@@ -5,7 +5,7 @@ const Topic = ({ topic }) => {
     const { id, name, logo, total } = topic
     return (
         <div className="overflow-hidden transition-shadow drop-shadow-lg bg-green-100 duration-300 rounded-xl">
-            <Link to={`./quiz/${id}`}>
+            <Link to={`/quiz/${id}`}>
                 <div className='container rounded-xl p-5'>
                     <img
                         src={logo}
