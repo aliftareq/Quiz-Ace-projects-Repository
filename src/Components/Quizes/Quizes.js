@@ -1,7 +1,13 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 import Quiz from '../Quiz/Quiz';
 
-export const Quizes = () => {
+const Quizes = () => {
+    const data = useLoaderData()
+    const quizData = data.data
+    const quizes = quizData.questions
+    let value = 0;
+    // console.log(quizes);
     return (
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
@@ -34,19 +40,23 @@ export const Quizes = () => {
                                 height="24"
                             />
                         </svg>
-                        <span className="relative">The</span>
                     </span>{' '}
-                    Quizes for Javascript
+                    Quizes for <span className='text-green-400'>{quizData.name}</span>
                 </h2>
                 <p className="text-base text-gray-700 md:text-lg">
-                    Be Patient and Think Deeply and Answer these Question wisely.
+                    Be Patient and Think Deeply and Answer these Questions wisely.
                 </p>
             </div>
             <div className="grid max-w-sm gap-5 mb-8 lg:grid-cols-1 sm:mx-auto lg:w-2/4">
-                <Quiz></Quiz>
-                <Quiz></Quiz>
-                <Quiz></Quiz>
+                {
+                    quizes.map(quiz => {
+                        value = value + 1;
+                        return <Quiz key={quiz.id} value={value} quiz={quiz}></Quiz>
+                    })
+                }
             </div>
         </div>
     );
 };
+
+export default Quizes
