@@ -4,11 +4,11 @@ A Quiz platform for Practice and develop tech skills at an extremely affordable 
 
 ***
 What was done in this project(Description):
-* The main focus of this project was, learing the use of react router . So, we applied React-router to navigate the page on place to another.
-* Also I applied Re-chart and added a bar chart and showed it on Statistic page UI.
-*  I also applied toast component with help of "tostify" package and used it to varify answer of a quiz given by an user valid or not.
-* I made the website responsive , it is responsive in small device(mobile), Tablet, and large Screen.
-*  lastly I used different types of hooks like(useState, useLoader) to add functinality and make this site efficient and smooth.
+* The main focus of this project was, learning the use of react router . So, we applied React-router to navigate a page one place to another.
+* Also I applied Re-chart and added a bar chart and showed it on Statistics page UI.
+*  I also applied toast component with help of "tostify" package to use it to varify answer of a quiz given by an user valid or not.
+* I made the website responsive , it is responsive in small devices(mobile), Tablet, and large Screen.
+*  lastly I used different types of hooks like(useState, useLoaderData) to add functionality and make this site efficient and smooth.
 
 ## Live Link
 Hosted in Netlify -> [Quiz Ace](https://quiz-ace.netlify.app/)
