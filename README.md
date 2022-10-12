@@ -11,7 +11,7 @@ What was done in this project(Description):
 *  lastly I used different types of hooks like(useState, useLoader) to add functinality and make this site efficient and smooth.
 
 ## Live Link
-Hosted in Netlify -> [Smart Home](https://shome-shop.netlify.app/)
+Hosted in Netlify -> [Quiz Ace](https://quiz-ace.netlify.app/)
 
 ## Technologies
 ***
